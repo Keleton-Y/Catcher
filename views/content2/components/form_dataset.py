@@ -27,22 +27,6 @@ form_dataset = html.Div(
                             "label": html.Span(children="Tiny-Scale", style=dict(fontSize=FONT_SIZE)),
                             "value": 0
                         },
-                        {
-                            "label": html.Span(children="Middle", style=dict(fontSize=FONT_SIZE)),
-                            "value": 1
-                        },
-                        {
-                            "label": html.Span(children="Large", style=dict(fontSize=FONT_SIZE)),
-                            "value": 2
-                        },
-                        {
-                            "label": html.Span(children="X-Large", style=dict(fontSize=FONT_SIZE)),
-                            "value": 3
-                        },
-                        {
-                            "label": html.Span(children="XX-Large", style=dict(fontSize=FONT_SIZE)),
-                            "value": 4
-                        },
                     ],
                     multi=True,
                     value=[0],

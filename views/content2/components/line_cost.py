@@ -71,7 +71,7 @@ def update_data():
         mode="lines+markers",
         name="TKRS",
         x=df["timestamp"],
-        y=df["skype_cost"],
+        y=df["tkrs_cost"],
         line=go.scatter.Line(
             color=colors[1]
         ),
@@ -82,7 +82,7 @@ def update_data():
         mode="lines+markers",
         name="Recap",
         x=df["timestamp"],
-        y=df["tkrs_cost"],
+        y=df["recap_cost"],
         line=go.scatter.Line(
             color=colors[2]
         ),

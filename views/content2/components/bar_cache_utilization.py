@@ -60,7 +60,7 @@ def update_data():
 
     ratio_data2 = go.Bar(
         x=df["timestamp"],
-        y=df["skype_rate"],
+        y=df["tkrs_rate"],
         name='TKRS',
         marker=go.bar.Marker(
             color=colors[1]
@@ -69,7 +69,7 @@ def update_data():
 
     ratio_data3 = go.Bar(
         x=df["timestamp"],
-        y=df["tkrs_rate"],
+        y=df["recap_rate"],
         name='ReCap',
         marker=go.bar.Marker(
             color=colors[2]
