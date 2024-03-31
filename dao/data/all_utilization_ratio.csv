@@ -1,4 +1,4 @@
-timestamp,kmax_rate,skype_rate,tkrs_rate
+timestamp,kmax_rate,tkrs_rate,recap_rate
 1477966200,0.4286,0.3889,0.5652
 1477966500,0.3659,0.4444,0.625
 1477966800,0.3429,0.4571,0.68

@@ -1,4 +1,4 @@
-timestamp,kmax_cost,skype_cost,trks_cost
+timestamp,kmax_cost,tkrs_cost,recap_cost
 1477966200.0,852828.0,853632.0,630300.0
 1477966210.0,862560.0,838836.0,625200.0
 1477966220.0,876696.0,851526.0,624720.0
