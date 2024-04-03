@@ -8,6 +8,7 @@ from dao.df import all_computational_time
 from globals.util import timestamp_to_15min
 from globals.variable import app
 from dash.dependencies import Input, Output
+from service.algorithm.main.env import *
 
 BASE_LAYOUT = copy.deepcopy(BASE_LAYOUT)
 del BASE_LAYOUT["legend"]
@@ -16,7 +17,7 @@ tickTexts, tickVals = timestamp_to_15min(all_computational_time["timestamp"])
 colors = ["#2980B9", "#F39C12", "#27AE60"]
 
 
-
+env = scEnv(learn=False)
 time_min_max = [all_computational_time["timestamp"].min(), all_computational_time["timestamp"].max()]
 time_range = [time_min_max[0], time_min_max[0] - 1]
 x_range = [time_min_max[0], tickVals[3]]
