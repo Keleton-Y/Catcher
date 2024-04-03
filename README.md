@@ -1,8 +1,3 @@
-Create conda environment：
-```bash
-conda env create -f conda_env.yml
-```
-
 Please install tensorflow v1.12.0 and CUDA If you want to run the learning-based method.
 
 Before running the project, modify the BASE_PATH variable in globals/variable.py to the root directory of the project.
