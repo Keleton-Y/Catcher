@@ -22,10 +22,6 @@ dataset_form = html.Div(
             ),
             options=[
                 {"label": "Chengdu-161101", "value": 0},
-                {"label": "Chengdu-161102", "value": 1},
-                {"label": "NewYork-160201", "value": 2},
-                
-                {"label": "NewYork-160202", "value": 3},
             ],
             multi=True,
             value=[],
