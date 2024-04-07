@@ -1,0 +1,42 @@
+:root {
+  --header-height: 50px
+}
+
+html, body{
+    margin: 0;
+
+}
+#app-container{
+    height: 100vh;
+    width: 100vw;
+    min-width: 2200px;
+    min-height: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+#aside-content-container{
+    display: flex;
+    height: calc(100% - var(--header-height));
+}
+#page-header{
+    height: var(--header-height);
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    background-color: #444444;
+    color: aliceblue;
+}
+#page-aside{
+    height: 100%;
+}
+#page-content{
+    flex: 1;
+}
+
+
+
+
+
+
+
