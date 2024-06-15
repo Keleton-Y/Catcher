@@ -7,6 +7,7 @@ Top-*k* Publish/Subscribe (TkPS) service is widely studied in spatial database, 
  1. **Clone the repository to your local machine**.
  2. **Install dependencies:** Use 'pip' or another package manager to install the required dependencies. You can find all necessary dependencies in conda_env.yml. We recommend creating a virtual environment for setting up Catcher.
  3. **Install TensorFlow and CUDA:** Please install TensorFlow v1.12.0 (GPU version) and the corresponding version of CUDA. They are indispensable because we have deployed learning-based methodvariable in globals/variable.py to the root directory of the project.
+ 4. **Modify configuration:** Before running the project, modify the BASE_PATH variable in globals/variable.py to the root directory of the project.
  5. **Run the server:**
 ```python run_server.py```.
 
